@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+// body {
+//   display: flex;
+//   justify-content: start;
+//   align-items: center;
+// }
+
+.container {
+  max-width: 1440px;
+  @media (max-width: $phone) {
+    max-width: 375px;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
